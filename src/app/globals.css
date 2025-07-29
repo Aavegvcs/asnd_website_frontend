@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* globals.css */
+.text-shadow-blue {
+  text-shadow: 0 0 8px rgba(24, 65, 246, 0.8);
+}
+
+.react-tel-input {
+    width: 58%;
+}
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:hover{
+    background-color: transparent !important;
+}
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus{
+    background-color: transparent !important;
+}
+.react-tel-input .country-list .country:hover, .react-tel-input .country-list .country.highlight{
+    background-color: transparent !important;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+    background-color: transparent !important;
+}
